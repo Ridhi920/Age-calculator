@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #9f1e49; 
+   font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background: #ffb6b9;  
+    height: 45px;
+    width: 100vw;
+}
+
+.nav_text{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.container{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    background: #ffb6b9;  
+}
+
+.container_text{
+    padding: 50px;
+    font-size: 20px;
+}
+
+.cal_btn{
+    padding: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 400ms ease;
+}
+
+.cal_btn:hover{
+    /* background: #0000;
+    color: #fff; */
+}
+
+.values{
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}

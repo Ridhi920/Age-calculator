@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+
+    <!-- ==================Navbar================ -->
+
+
+    <nav class="navbar">
+        <div class="nav_text">Age Calculator</div>
+    </nav>
+
+
+
+
+    <div class="container">
+        <div class="container_text">
+       <h3>Select your Date Of Birth:</h3>
+        <input type="date" id="date_input"><br><br><br>
+        <button class="cal_btn" id="calc">Calculate</button>
+        <button class="cal_btn" onclick="window.print()" >Print</button>
+        </div>
+    </div>
+
+    <div class="values">
+    <h3>Your age in years:</h3><p id="year"></p>
+    <h3>Your age in months:</h3><p id="month"></p>
+    <h3>Your age in weeks:</h3><p id="week"></p>
+    <h3>Your age in days:</h3><p id="day"></p>
+    <h3>Your age in hours:</h3><p id="hour"></p>
+    <h3>Your age in minutes:</h3><p id="minute"></p>
+    <h3>Your age in seconds:</h3><p id="second"></p>
+    </div>
+     
+
+<script src="main.js"></script>
+
+</body>
+</html>
